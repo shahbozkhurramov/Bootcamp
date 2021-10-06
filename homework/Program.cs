@@ -19,7 +19,18 @@ namespace homework
             // lab3.Problem1();
             // lab3.Problem2();
             // lab3.Problem3();
-            lab3.Problem4();
+            // lab3.Problem4();
+            var lab4=new Lab4();
+            // lab4.Problem1();
+            // lab4.Problem2();
+            // lab4.Problem3();
+            // lab4.Problem4();
+            // lab4.Problem5();
+            // lab4.Problem6();
+            // lab4.Problem7();
+            // lab4.Problem8();
+            // lab4.Problem9();
+            lab4.Problem10();
         }
     }
 }
