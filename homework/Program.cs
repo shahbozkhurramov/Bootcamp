@@ -14,7 +14,12 @@ namespace homework
             // lab2s.Problem5();
             // lab2s.Problem6();
             // lab2s.Problem7();
-            lab2s.Problem8();
+            // lab2s.Problem8();
+            var lab3=new Lab3();
+            // lab3.Problem1();
+            // lab3.Problem2();
+            // lab3.Problem3();
+            lab3.Problem4();
         }
     }
 }
