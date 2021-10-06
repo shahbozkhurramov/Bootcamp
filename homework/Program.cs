@@ -43,7 +43,21 @@ namespace homework
             // lab5.Problem9();
             // lab5.Problem10();
             // lab5.Problem11();
-            lab5.Problem12();
+            // lab5.Problem12();
+            var lab6=new Lab6();
+            // lab6.Problem1();
+            // lab6.Problem2();
+            // lab6.Problem3();
+            // lab6.Problem4();
+            // lab6.Problem5();
+            // lab6.Problem6();
+            // lab6.Problem7();
+            // lab6.Problem8();
+            // lab6.Problem9();
+            // lab6.Problem10();
+            // lab6.Problem11();
+            // lab6.Problem12();
+            lab6.Problem13();
         }
     }
 }
