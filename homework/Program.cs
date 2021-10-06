@@ -44,6 +44,15 @@ namespace homework
             // lab5.Problem10();
             // lab5.Problem11();
             // lab5.Problem12();
+            // lab5.Problem13();
+            // lab5.Problem14();
+            // lab5.Problem15();
+            // lab5.Problem16();
+            // lab5.Problem17();
+            // lab5.Problem18();
+            // lab5.Problem19();
+            // lab5.Problem20();
+            // lab5.Problem21();
             var lab6=new Lab6();
             // lab6.Problem1();
             // lab6.Problem2();
@@ -57,7 +66,7 @@ namespace homework
             // lab6.Problem10();
             // lab6.Problem11();
             // lab6.Problem12();
-            lab6.Problem13();
+            // lab6.Problem13();
         }
     }
 }
