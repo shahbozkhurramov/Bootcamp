@@ -30,7 +30,20 @@ namespace homework
             // lab4.Problem7();
             // lab4.Problem8();
             // lab4.Problem9();
-            lab4.Problem10();
+            // lab4.Problem10();
+            var lab5 = new Lab5();
+            // lab5.Problem1();
+            // lab5.Problem2();
+            // lab5.Problem3();
+            // lab5.Problem4();
+            // lab5.Problem5();
+            // lab5.Problem6();
+            // lab5.Problem7();
+            // lab5.Problem8();
+            // lab5.Problem9();
+            // lab5.Problem10();
+            // lab5.Problem11();
+            lab5.Problem12();
         }
     }
 }
