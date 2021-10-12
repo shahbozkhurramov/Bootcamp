@@ -127,11 +127,7 @@ namespace homework.Solutions
             int a=ints[0],b=ints[1],c;
             if(a>=1)
             {
-                if(b>=45)
-                {
-                c=b-45;
-                a=a;
-                }
+                if(b>=45) c=b-45;
                 else
                 {
                 c=b+15;
@@ -139,11 +135,7 @@ namespace homework.Solutions
                 }
             }
             else{
-                if(b>=45)
-                {
-                c=b-45;
-                a=a;
-                }
+                if(b>=45) c=b-45;
                 else
                 {
                 c=b+15;
