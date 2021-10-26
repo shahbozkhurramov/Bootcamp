@@ -123,9 +123,10 @@ namespace bot
                         {
                             _logger.LogInformation($"New user added: {message.Chat.Id}");
                         }
+                        else _logger.LogInformation($"User already exists!");
 
                 Console.WriteLine($"{_latitude} {_longitude}");
-                Console.WriteLine($"{message.From.Username} --> {message.From.FirstName} {message.From.LastName}");
+                Console.WriteLine($"@{message.From.Username} --> {message.From.FirstName} {message.From.LastName}");
             }
             else
             { 
@@ -135,7 +136,8 @@ namespace bot
                     chatId: message.Chat.Id,
                     text: "Welcome to our Prayer Time bot\nIn order to get Namaz times please share your Location...",
                     parseMode: ParseMode.Markdown,
-                    replyMarkup: MessageBuilder.LocationRequestButton());}
+                    replyMarkup: MessageBuilder.LocationRequestButton());
+                    Console.WriteLine($"@{message.From.Username} --> {message.From.FirstName} {message.From.LastName}");}
                 else if(message.Text=="Change Location") await client.SendTextMessageAsync(
                     chatId: message.Chat.Id,
                     text: "Change Location",
